@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'RHHS Game Development Club Tutorials'
+project = 'RHHS Game Development Club Documentation'
 copyright = '2026, Leads of RHHS Game Development Club'
 author = 'Leads of RHHS Game Development Club'
 release = '1.0'
