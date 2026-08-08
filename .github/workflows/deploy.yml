@@ -1,33 +1,51 @@
-name: Deploy Sphinx Docs to Pages
+name: Deploy Sphinx Docs to GitHub Pages
 
 on:
   push:
-    branches: [ main ] 
+    branches: ["main"]  
+
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Source Code
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-    - name: Install Documentation Dependencies
-      run: |
-        pip install sphinx sphinx-rtd-theme
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install sphinx alabaster
 
-    - name: Compile reST into HTML Website
-      run: |
-        sphinx-build -b html source build/html
+      - name: Build Sphinx Documentation
+        run: |
+          python -m sphinx.cmd.build -b html source _build/html
 
-    - name: Publish HTML to GitHub Pages Branch
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: build/html # The folder Sphinx built the site into
-        branch: gh-pages # The target branch GitHub Pages reads from
+      - name: Create .nojekyll file
+        run: |
+          touch _build/html/.nojekyll
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_build/html'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
