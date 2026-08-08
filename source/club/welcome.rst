@@ -1,12 +1,10 @@
-=======================
-Welcome to the Club!
-=======================
+=======
+Welcome
+=======
 
 We are excited to have you building games with us. 
 
 Getting Started Checklist
 ==========================
-1. Join our communication channels.
-2. Clone the main repository template.
-3. Review the code conventions.
+1. If you have not, please follow the checklist of tasks on our website: `Getting Started - RHHS Game Development Club <https://rhhs-game-development-club.github.io/Club-Site/getting-started.html>`
 
