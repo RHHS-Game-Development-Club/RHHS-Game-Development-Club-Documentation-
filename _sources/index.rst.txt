@@ -12,12 +12,12 @@ Welcome to the offical documentation of the RHHS Game Development Club! In this 
    :maxdepth: 2
    :caption: Getting Started:
 
-   source/club/welcome
-   source/club/git_workflow
+   club/welcome
+   club/git_workflow
 
 .. toctree::
    :maxdepth: 2
    :caption: Tutorials:
 
-   source/tutorials/overview
+   tutorials/overview
 
