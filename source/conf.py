@@ -26,10 +26,14 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'furo'
 html_theme_options = {
     'page_width': '1200px',        
     'body_max_width': 'auto',      
     'sidebar_width': '260px',      
 }
 html_static_path = ['_static']
+
+html_css_files = [
+    'custom.css',
+]

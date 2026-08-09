@@ -1,0 +1,21 @@
+/* Custom grid styles for onboarding cards */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.grid-item {
+    display: block;
+    padding: 18px 20px;
+    border-radius: 6px;
+    background-color: #faf9f5;
+    border: 1px solid #e1e1e1;
+    text-decoration: none !important;
+}
+
+.grid-item:hover {
+    border-color: #004b6b;
+    background-color: #ffffff;
+}

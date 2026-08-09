@@ -1,6 +1,11 @@
-===============
-GitHub Workflow
-===============
+=========================
+GitHub and Unity Workflow
+=========================
 
-This document breaks down the GitHub workflow we use. If you do not know git and/or do not have it installed, please look at our Git/GitHub tutorial
+This document breaks down our Unity and GitHub workflow for our programmers, as well as how we stores art/music assets.
+Please select your box below to point you to the relevant section of our website
+
+
+
+
 
