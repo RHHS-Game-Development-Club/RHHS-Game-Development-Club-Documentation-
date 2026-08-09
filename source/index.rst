@@ -11,20 +11,20 @@ Here you'll find all our resources, setup guides, and project tutorials. Use the
    :caption: Tutorials:
    :hidden:
 
-   tutorials/installing_programmers.rst
-   tutorials/installing_artists.rst
-   tutorials/git_tutorial.rst
-   tutorials/unity_overview.rst
-   tutorials/art_tutorial.rst
-   tutorials/music_tutorial.rst
+   tutorials/installing_programmers
+   tutorials/installing_artists
+   tutorials/git_tutorial
+   tutorials/unity_overview
+   tutorials/art_tutorial
+   tutorials/music_tutorial
 
 .. toctree::
    :maxdepth: 2
    :caption: Contributing:
    :hidden:
 
-   contributing/programmer.rst
-   contributing/artist.rst
+   contributing/programmer
+   contributing/artist
 
 Getting Started
 ---------------
