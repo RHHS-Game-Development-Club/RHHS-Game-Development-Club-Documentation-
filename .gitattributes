@@ -1,0 +1,2 @@
+# Properly Detect RST
+*.rst linguist-detectable=true
