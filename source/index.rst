@@ -8,24 +8,28 @@ Here you'll find all our resources, setup guides, and project tutorials. Use the
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting Started:
-   :hidden:
-
-   club/welcome
-   club/git_workflow
-
-.. toctree::
-   :maxdepth: 2
    :caption: Tutorials:
    :hidden:
 
-   tutorials/overview
+   tutorials/installing_programmers.rst
+   tutorials/installing_artists.rst
+   tutorials/git_tutorial.rst
+   tutorials/unity_overview.rst
+   tutorials/art_tutorial.rst
+   tutorials/music_tutorial.rst
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Contributing:
+   :hidden:
+
+   contributing/programmer.rst
+   contributing/artist.rst
 
 Getting Started
 ---------------
 
-Its is assumed that you have already completed the tasks listed on our website. If you have not, please click this link: `Getting Started - RHHS Game Development Club <https://rhhs-game-development-club.github.io/Club-Site/getting-started.html>`_
+Its is assumed that you have already completed the tasks listed on our website. If you have not, please click this link: `Getting Started - RHHS Game Development Club <https://rhhs-game-development-club.github.io/Club-Site/getting-started.html>`_.
 Please click one of the boxes below to guide you to the next step: 
 
 .. raw:: html
@@ -63,17 +67,17 @@ Please click one of the boxes below to guide you to the next step:
 
     <div class="grid-container">
         <a class="grid-item new-to-git-unity" href="#programmer-installation-guide">
-            I have not installed Git/Unity,<br>
+            I want to program our games,
             <strong>I need a guide on how to install and use Git/Unity</strong>
         </a>
 
         <a class="grid-item new-to-art-music" href="#art-music-installation-guide">
-            I have not installed an art/music creation platform,<br>
+            I want to create art/music assets for our games,<br>
             <strong>I need a guide on how to install and use an art/music platform</strong>
         </a>
 
         <a class="grid-item programmer-ready-to-code" href="#programmer-workflow">
-            I have installed Git/Unity,<br>
+            I have Git/Unity,<br>
             <strong>And I am ready to start contributing to our game</strong>
         </a>
 

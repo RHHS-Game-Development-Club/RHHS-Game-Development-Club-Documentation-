@@ -33,7 +33,7 @@ html_theme_options = {
     'sidebar_width': '260px',      
 }
 html_static_path = ['_static']
-
+html_title = 'RHHS Game Development Club'
 html_css_files = [
     'custom.css',
 ]
