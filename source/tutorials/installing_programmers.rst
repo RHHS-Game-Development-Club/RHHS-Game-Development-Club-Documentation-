@@ -17,7 +17,7 @@ Before installing anything on your computer, create a free account at `GitHub <h
 Windows
 ~~~~~~~
 
-`This is the download link for git on Windows <https://gitforwindows.org/>` 
+`This is the download link for git on Windows <https://gitforwindows.org/>`_ 
 
 1. Click the download button 
 2. Follow the setup wizard
@@ -38,7 +38,7 @@ It should print the version of Git you installed
    git config --global init.defaultBranch main
 
 macOS
------
+~~~~~
 
 1. Open your Terminal (you can find it using Spotlight by pressing ``Cmd + Space``).
 2. Type the following command and press Enter:
@@ -58,7 +58,7 @@ macOS
 
 
 Linux
------
+~~~~~
 
 1. Open your terminal application.
 2. Update your package manager and install Git using your distribution's command:
