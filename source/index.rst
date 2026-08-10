@@ -12,9 +12,9 @@ Here you'll find all our resources, setup guides, and project tutorials. Use the
    :hidden:
 
    tutorials/installing_programmers
-   tutorials/installing_artists
    tutorials/git_tutorial
    tutorials/unity_overview
+   tutorials/installing_artists
    tutorials/art_tutorial
    tutorials/music_tutorial
 
@@ -66,22 +66,22 @@ Please click one of the boxes below to guide you to the next step:
     </style>
 
     <div class="grid-container">
-        <a class="grid-item new-to-git-unity" href="#programmer-installation-guide">
+        <a class="grid-item new-to-git-unity" href="tutorials/installing_programmers.html">
             I want to program our games,
             <strong>I need a guide on how to install and use Git/Unity</strong>
         </a>
 
-        <a class="grid-item new-to-art-music" href="#art-music-installation-guide">
+        <a class="grid-item new-to-art-music" href="tutorials/installing_artists.html">
             I want to create art/music assets for our games,<br>
             <strong>I need a guide on how to install and use an art/music platform</strong>
         </a>
 
-        <a class="grid-item programmer-ready-to-code" href="#programmer-workflow">
+        <a class="grid-item programmer-ready-to-code" href="contributing/programmer.html">
             I have Git/Unity,<br>
             <strong>And I am ready to start contributing to our game</strong>
         </a>
 
-        <a class="grid-item artist-music-ready-to-work" href="#artist-workflow">
+        <a class="grid-item artist-music-ready-to-work" href="contributing/artist.html">
             I have my art/music creation platform and skills,<br>
             <strong>And I am ready to start contributing to our game</strong>
         </a>
