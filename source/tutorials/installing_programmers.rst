@@ -2,7 +2,7 @@
 Installing Git/Unity
 =====================
 
-This is a guide on how to install Git/Unity, as well as a IDE to edit Scripts.
+This is a guide on how to install Git/Unity, as well as a IDE to edit Scripts. 
 
 Installing Git 
 --------------
