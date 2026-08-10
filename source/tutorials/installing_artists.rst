@@ -16,8 +16,11 @@ Before installing your tools, decide what area of game creation you want to focu
 .. note::
    You do not need to install every single program! Download the tools that match your specific role on the team.
 
+Visual Art
+----------
+
 3D Modeling: Blender
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Blender is our primary 3D software for modeling, rigging, texturing, and animating game assets.
 
@@ -27,7 +30,7 @@ Blender is our primary 3D software for modeling, rigging, texturing, and animati
 4. Open Blender once installation completes. On the initial splash screen, keep the default shortcut settings and click **Save New Settings**.
 
 2D Concept Art & Texturing: Krita
----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Krita is a powerful, free digital painting program used for drawing concept art, UI elements, and textures.
 
@@ -41,7 +44,7 @@ Krita is a powerful, free digital painting program used for drawing concept art,
 3. Run the installer and open Krita to confirm it launches properly.
 
 2D Pixel Art & Animation: LibreSprite
--------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 LibreSprite is an open-source tool designed specifically for creating 2D pixel art and animated sprite sheets.
 

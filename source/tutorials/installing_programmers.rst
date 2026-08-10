@@ -108,7 +108,7 @@ Installing Unity
 The Unity Version we will be using for the 2026-2027 school year is **Unity 6.3 LTS**. 
 
 Step 1: Download & Install Unity Hub
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Unity Hub is a lightweight manager that handles your different project versions, downloads, and user licenses.
 
@@ -123,7 +123,7 @@ The Unity Hub is a lightweight manager that handles your different project versi
 4. Click the **Settings** gear icon in the top right corner, select the **Licenses** tab, click **Add**, and choose the free **Unity Personal** license option.
 
 Step 2: Pick and Install Your Preferred Code Editor (IDE)
-----------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
    **Already have an IDE installed?** If you are an experienced programmer who already uses an environment like traditional **Visual Studio** or **JetBrains Rider**, you do not need to switch! Unity fully integrates with all three major choices. Pick your preference below.
@@ -151,7 +151,7 @@ Get your choice ready:
   2. Ensure the built-in **Unity Support** tool plugin is activated under your Rider preferences menu.
 
 Step 3: Install Unity 6.3 LTS & Pick Component Modules
-------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Go back to the main Hub window and click the **Installs** tab on the left sidebar.
 2. Click the **Install Editor** button in the top right corner.
@@ -165,7 +165,7 @@ Step 3: Install Unity 6.3 LTS & Pick Component Modules
 5. Click **Continue** to start downloading the Unity Editor engine files.
 
 Step 4: Link Your Editor to Unity (Configuration)
--------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 No matter which of the Big 3 code editors you installed, you must tell Unity to hand off your C# scripts to that specific application.
 
