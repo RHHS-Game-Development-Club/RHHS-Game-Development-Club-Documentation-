@@ -13,7 +13,7 @@ Here you'll find all our resources, setup guides, and project tutorials. Use the
 
    tutorials/installing_programmers
    tutorials/git_tutorial
-   tutorials/unity_overview
+   tutorials/unity/unity_basics
    tutorials/installing_artists
    tutorials/art_tutorial
    tutorials/music_tutorial
