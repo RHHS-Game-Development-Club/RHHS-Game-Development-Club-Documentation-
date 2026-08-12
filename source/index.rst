@@ -11,12 +11,7 @@ Here you'll find all our resources, setup guides, and project tutorials. Use the
    :caption: Tutorials:
    :hidden:
 
-   tutorials/installing_programmers
-   tutorials/git_tutorial
-   tutorials/unity/unity_basics
-   tutorials/installing_artists
-   tutorials/art_tutorial
-   tutorials/music_tutorial
+   tutorials/index
 
 .. toctree::
    :maxdepth: 2

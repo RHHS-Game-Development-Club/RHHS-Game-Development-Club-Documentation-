@@ -1,8 +1,8 @@
-==============
-Unity Basics
-==============
+==================
+Unity Fundamentals
+==================
 
-This page details an overview of Unity. It is going to contain the core concepts, but not explain every detail/code implementation. It will contain a link to the Unity Documentation
+This page contains some of the fundamentals needed to understand/use Unity.
 
 Unity Editor
 ~~~~~~~~~~~~
