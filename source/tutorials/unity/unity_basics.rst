@@ -81,3 +81,16 @@ This is a neccessary step for Unity to load your scene in the final game, and so
 3. The scene located at position Index 0 will serve as the starting scene when your game boots up.
 
 `Unity Documentation - Scenes <https://docs.unity3d.com/6000.3/Documentation/Manual/working-with-scenes.html>`_
+
+Scripting
+~~~~~~~~~
+
+Scripting in Unity is what allows things to happen. A GameObject can have different components, but without scripts, they don't do much.
+The vast majority of this Unity documentation is related directly to scripting.
+
+**To create a script**
+
+1. Right click an empty area in your Asset Pool
+2. Hover over the scripting tab
+3. Select "Empty C# Script"
+4. Make sure the name is relevant to what the script will do, and **always add .cs at the end** (this turns it into a C# script, which is what Unity uses)

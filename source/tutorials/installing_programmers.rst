@@ -128,7 +128,7 @@ Step 2: Pick and Install Your Preferred Code Editor (IDE)
 .. note::
    **Already have an IDE installed?** If you are an experienced programmer who already uses an environment like traditional **Visual Studio** or **JetBrains Rider**, you do not need to switch! Unity fully integrates with all three major choices. Pick your preference below.
 
-* **VS Code (Highly Recommended for Beginners):** Extremely lightweight and clean. Keeps your laptop lightning-fast and responsive.
+* **VS Code (Highly Recommended for Beginners):** Extremely lightweight and clean. Keeps your laptop/desktop lightning-fast and responsive.
 * **Visual Studio:** The traditional massive development suite. Very powerful but relies on a heavy system installation wizard.
 * **JetBrains Rider:** A premium, cross-platform professional gaming IDE built with heavy native engine integrations specifically tailored for Unity.
 

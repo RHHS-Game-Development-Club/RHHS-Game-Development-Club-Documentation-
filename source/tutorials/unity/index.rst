@@ -2,9 +2,10 @@
 Unity
 =====
 
-Learn the fundamentals of Unity game development.
+This page is an overview of Unity. It explains a topic, and then provides a link to further documentation
 
 .. toctree::
    :maxdepth: 2
 
    unity_basics
+   unity_input
