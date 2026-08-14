@@ -94,3 +94,49 @@ The vast majority of this Unity documentation is related directly to scripting.
 2. Hover over the scripting tab
 3. Select "Empty C# Script"
 4. Make sure the name is relevant to what the script will do, and **always add .cs at the end** (this turns it into a C# script, which is what Unity uses)
+
+.. note:: 
+
+    This website is not here to teach you C#/Programming. If you do not know how to program, please reach out to Norrie Adams (or another coder with the "God" Role) and they will help you.
+
+MonoBehaviour 
+~~~~~~~~~~~~~
+
+MonoBehaviour is the base class that almost every Unity script derives from. It allows your code to run as a component on a GameObject and hook into Unity's built-in event lifecycle.
+
+**Core Lifecycle Methods**
+
+* **Awake():** Called once when the script instance is loaded. Used for initializing variables or states.
+* **Start():** Called before the first frame update. Used to set up interactions between scripts.
+* **Update():** Called every frame. Ideal for gameplay logic, inputs, and timer checks.
+* **FixedUpdate():** Called at fixed time intervals (independent of framerate). Used strictly for physics code.
+
+**Key Features**
+
+* **Inspector Control:** Mark variables as ``public`` or use ``[SerializeField]`` to expose them directly in the Unity Inspector.
+* **Component Access:** Use methods like ``GetComponent<T>()`` to communicate with other components on the same GameObject.
+* **Coroutines:** Execute logic over time or pause execution using ``StartCoroutine()``.
+
+Prefabs
+~~~~~~~
+
+A prefab in Unity is a reusable version of a GameObject. Its very similar to something like Tree Model.
+You export a Tree Model once, and you can use it in 30 different places. But in Unity, if you just drag it onto the scene, it does not have any of the components that you assigned to it.
+
+**Prefabs fix this problem**
+
+Prefabs are GameObjects that store all the components, and the data about that component. You can edit one Prefab, and every model of it in the scene will update.
+
+**How to Create a Prefab:**
+
+1. Prepare Your GameObjectCreate the object: 
+   * Right-click in the Hierarchy window to create a 3D object, 2D sprite, or an Empty GameObject.
+   * Configure it: Customize the object in the Inspector window. 
+   * Add scripts, materials, colliders, or physics components.
+   * (Optional) Group multiple objects: If you want a complex prefab (like a multi-part vehicle or character), make an Empty GameObject the "Parent" and drag the individual components inside it.
+2. Convert It Into a Prefab
+   * Organize: In your Project window, right-click inside the Assets folder and choose Create -> Folder. 
+   * Name it Prefabs to keep your project organized.
+   * Drag and drop: Left-click and hold your configured GameObject from the Hierarchy. Drag it down into your new Prefabs folder in the Project window.
+3. Verify the Visual CuesBlue Text / Icon: 
+   * The text and cube icon next to your GameObject in the Hierarchy will turn blue. This confirms that the object in your scene is now a "Prefab Instance" linked to your asset file.Asset file: A new file with the .prefab extension will appear in your Project folder.

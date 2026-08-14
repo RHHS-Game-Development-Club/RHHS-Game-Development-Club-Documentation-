@@ -19,7 +19,7 @@ The direction is the direction the ray was shot in (usually stored as a Vector3)
 **Raycast Hit struct**
 ~~~~~~~~~~~~~~~~~~~~~~
 
-When a Raycast hits a GameObject with a collider, it populates this struct with a bunch of information, that can be used to execute more code
+When a Raycast hits a GameObject with a collider, it populates the RaycastHit struct with a bunch of information, that can be used to execute more code
 
 The most common parts of the struct that are used are: 
 
